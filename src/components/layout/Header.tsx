@@ -55,9 +55,9 @@ export default function Header() {
           ) : (
             <button
               onClick={() => signIn("google")}
-              className="px-6 py-2.5 rounded-full bg-gradient-to-r from-primary to-accent text-white font-semibold hover:opacity-90 transition-opacity shadow-[0_0_15px_rgba(139,92,246,0.3)] hover:shadow-[0_0_25px_rgba(139,92,246,0.5)]"
+              className="px-6 py-2.5 rounded-full bg-gradient-to-r from-primary to-accent text-white font-semibold hover:opacity-90 transition-opacity shadow-[0_0_15px_rgba(139,92,246,0.3)] hover:shadow-[0_0_25px_rgba(139,92,246,0.5) cursor-pointer]"
             >
-              Login with Google
+              Login
             </button>
           )}
         </div>
