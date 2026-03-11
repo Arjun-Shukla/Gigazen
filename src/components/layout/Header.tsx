@@ -16,8 +16,12 @@ export default function Header() {
     >
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center glow-effect">
-            <span className="font-bold text-xl text-white">G</span>
+          <div className="w-15 h-15 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center glow-effect">
+            <img
+              src="/Gigazenlogo.jpeg"
+              alt="Gigazen Logo"
+              className="w-15 h-15 rounded-xl object-contain"
+            />
           </div>
           <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
             Gigazen

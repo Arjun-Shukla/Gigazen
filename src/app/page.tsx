@@ -59,7 +59,7 @@ export default function Home() {
           >
             <h2 id="about" className="sr-only">About the Platform</h2>
             <p>
-              Gigazen is the ultimate PC game account rental platform. Skip the $70+ price tags and immediately access 
+              Gigazen is the ultimate PC game account rental platform. Skip the ₹5000+ price tags and immediately access 
               the best titles with zero hassle. Join thousands of gamers who play more and pay less.
             </p>
           </motion.div>
@@ -113,7 +113,7 @@ export default function Home() {
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   className="bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all placeholder:text-gray-600"
-                  placeholder="Player One"
+                  placeholder="Player Name"
                 />
               </div>
 
