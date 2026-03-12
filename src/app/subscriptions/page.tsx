@@ -13,13 +13,13 @@ const tiers = [
   },
   {
     name: "Zen Premium",
-    price: 449,
+    price: 499,
     features: ["10 Games per month", "3 AAA Games", "Priority Support", "Instant Delivery"],
     highlight: true,
   },
   {
     name: "Zen Premium+",
-    price: 799,
+    price: 999,
     features: ["20 Games per month", "10 AAA Games", "24/7 Premium Support", "Instant Delivery"],
     highlight: false,
   },

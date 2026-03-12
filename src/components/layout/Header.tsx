@@ -18,7 +18,7 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-2 group">
           <div className="w-15 h-15 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center glow-effect">
             <img
-              src="/Gigazenlogo.jpeg"
+              src="/logonew.jpeg"
               alt="Gigazen Logo"
               className="w-15 h-15 rounded-xl object-contain"
             />
