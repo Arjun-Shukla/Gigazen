@@ -7,19 +7,19 @@ import { useSession, signIn } from "next-auth/react";
 const tiers = [
   {
     name: "Zen Basic",
-    price: 199,
+    price: 499,
     features: ["3 Games per month", "0 AAA Games", "Standard Support", "Instant delivery"],
     highlight: false,
   },
   {
     name: "Zen Premium",
-    price: 499,
+    price: 799,
     features: ["10 Games per month", "3 AAA Games", "Priority Support", "Instant Delivery"],
     highlight: true,
   },
   {
     name: "Zen Premium+",
-    price: 999,
+    price: 1299,
     features: ["20 Games per month", "10 AAA Games", "24/7 Premium Support", "Instant Delivery"],
     highlight: false,
   },
